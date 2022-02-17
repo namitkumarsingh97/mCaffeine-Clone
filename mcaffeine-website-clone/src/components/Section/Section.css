@@ -1,0 +1,46 @@
+.section__main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section__img1 {
+  height: 50%;
+  width: 50%;
+}
+
+.section__img2 {
+  height: 50%;
+  width: 50%;
+}
+
+.centered {
+  position: absolute;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.btn {
+  background: transparent;
+  color: white;
+  margin-top: 80px;
+  transform: translate(150%);
+  cursor: pointer;
+  border: solid;
+  border-width: 2px;
+  padding: 10px;
+}
+
+.btn:hover {
+  background: white;
+  color: black;
+}
+
+.centered1 {
+  position: absolute;
+  /* left: 10% */
+  right: -3%;
+  transform: translate(-50%, -50%);
+  color: white;
+}

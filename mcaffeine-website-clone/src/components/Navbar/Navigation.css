@@ -1,0 +1,44 @@
+.navbar-main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-main > img {
+  height: 50px;
+  width: 140px;
+  cursor: pointer;
+}
+
+.navbar > ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 2.7vh;
+  padding: 1px;
+  margin: 2px;
+}
+
+.navbar > ul > li {
+  padding: 4px;
+  cursor: pointer;
+}
+
+.navbar > ul > li:hover {
+  border: solid;
+  border-width: 1px;
+  border-color: black;
+}
+
+.navbar > ul > li {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar-cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}

@@ -1,0 +1,15 @@
+.secondText {
+}
+
+.secondText > p {
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 25px;
+  cursor: pointer;
+  font-weight: 500;
+  color: black;
+}
+
+.secondText > p:hover {
+  letter-spacing: 3px;
+}
